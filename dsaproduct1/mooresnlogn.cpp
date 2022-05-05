@@ -43,7 +43,7 @@ int main()
     cout<<"Enter the size of array ";
     cin>>n;
     vector<int> a;
-    cout<<"Enter the elements of array ";
+    cout<<"Enter the elements of  ";
 
     for(int i=0;i<n;i++)
     {
