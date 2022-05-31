@@ -1,0 +1,19 @@
+take a while loop  until l<=h 
+low as 0 igh as n-1 
+find the mid element and check if key is equal to mid or not 
+now from this point updated binary search will work 
+it is sure that one part of the array will be sorted 
+40 50 60 70 10 20 30  is the array key is 60 
+
+now if a[l]<a[mid ] then the left part is sorted we will chech if the elemt we are looking for fall under the range of 
+a[l] to a[mid]
+if yes then we will update high to mid -1 
+
+if no we will update in low  =mid + 1
+
+if a[l]>a[mid] then the right part would be sorted 
+we will check if the element is greater then a[mid] and less then a[high]
+if yes low = mid+1;
+
+other wise high would be mid- 1
+
