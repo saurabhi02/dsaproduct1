@@ -1,0 +1,1 @@
+cout<<maxsofar<<" "<<minsofar<<endl;
